@@ -1,2 +1,2 @@
 # ssh-bruteforce.py
-SSH login bruteforcing
+The tool attempts to authenticate SSH connections using a series of passwords from a file (`ssh-common-passwords.txt`) against a specified host (`127.0.0.1`). It iterates through each password, attempting to establish an SSH connection. If successful, it prints the valid password and stops further attempts. If authentication fails, it continues with the next password. Error handling is included to manage authentication exceptions and other potential issues during connection attempts.
